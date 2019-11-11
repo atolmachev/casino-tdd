@@ -1,0 +1,18 @@
+group 'com.ssg.casino'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+    mavenCentral()
+
+    flatDir {
+        dirs 'dependencies'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile "org.mockito:mockito-core:2.+"
+}
