@@ -1,4 +1,4 @@
-group 'com.ssg.casino'
+group 'com.atolmachev.casino'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
